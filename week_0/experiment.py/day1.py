@@ -1,0 +1,8 @@
+name = input ("Enter your name: ")
+print("hello," + name )
+print("hello,", name.strip().title())
+print("hello,", name.strip().capitalize())
+print(f"hello,{name.strip().title()}")
+print(f"hello,{name.strip().capitalize()}") 
+name = input("Enter your name: ")
+name = (name.strip().title())
